@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomController", "CustomController\CustomController.csproj", "{AAC660CF-DF09-4273-A4E5-5A352E178003}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Deploy", "TDS.Deploy\TDS.Deploy.scproj", "{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Web", "Common.Web\Common.Web.csproj", "{DCFF211A-DE3A-4BE2-84D5-18437A5C7901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionOfControl.CastleWindsor", "InversionOfControl.CastleWindsor\InversionOfControl.CastleWindsor.csproj", "{16901394-0A30-4C36-8979-4E22BEC6898D}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Master", "TDS.Master\TDS.Master.scproj", "{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{3F30568C-C4E1-46E8-8D11-A7422D988FFF}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC660CF-DF09-4273-A4E5-5A352E178003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC660CF-DF09-4273-A4E5-5A352E178003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC660CF-DF09-4273-A4E5-5A352E178003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC660CF-DF09-4273-A4E5-5A352E178003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DCFF211A-DE3A-4BE2-84D5-18437A5C7901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFF211A-DE3A-4BE2-84D5-18437A5C7901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFF211A-DE3A-4BE2-84D5-18437A5C7901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFF211A-DE3A-4BE2-84D5-18437A5C7901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16901394-0A30-4C36-8979-4E22BEC6898D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16901394-0A30-4C36-8979-4E22BEC6898D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16901394-0A30-4C36-8979-4E22BEC6898D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16901394-0A30-4C36-8979-4E22BEC6898D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
