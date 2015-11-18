@@ -1,0 +1,6 @@
+Hedgehog - Chained Dependency Resolver
+Copyright (C) 2015 Hedgehog Development, LLC
+
+This source code is covered by the Apache License, Version 2.0, which
+can be found in the accompanying LICENSE.txt file, or online at
+http://www.apache.org/licenses/.
