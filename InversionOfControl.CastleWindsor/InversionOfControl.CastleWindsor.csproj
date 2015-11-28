@@ -170,7 +170,7 @@
     <Content Include="App_Config\Windsor\components.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="web.config" />
+    <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">

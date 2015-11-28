@@ -117,7 +117,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="web.config" />
+    <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
