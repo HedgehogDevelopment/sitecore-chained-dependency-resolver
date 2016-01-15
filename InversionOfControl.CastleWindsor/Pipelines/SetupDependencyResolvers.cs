@@ -37,7 +37,7 @@ namespace InversionOfControl.CastleWindsor.Pipelines
 
             // Optional use of Controller Factories (for both Mvc and WebApi)
             //this.SetupMvcControllerFactory(DependencyResolver.Current);
-            //this.SetupWebApiControllerActivator(GlobalConfiguration.Configuration.DependencyResolver);
+            //this.SetupWebApiControllerActivator(GlobalConfiguration.Configuration.DependencyResolver, container);
         }
 
         private IWindsorContainer BuildContainerAndRegisterTypes()
