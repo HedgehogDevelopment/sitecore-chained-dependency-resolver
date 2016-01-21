@@ -36,8 +36,8 @@ namespace InversionOfControl.CastleWindsor.Pipelines
             System.Web.Http.GlobalConfiguration.Configuration.DependencyResolver = chainedWebAPIResolver;
 
             // Optional use of Controller Factories (for both Mvc and WebApi)
-            //this.SetupMvcControllerFactory(DependencyResolver.Current);
-            //this.SetupWebApiControllerActivator(GlobalConfiguration.Configuration.DependencyResolver, container);
+            this.SetupMvcControllerFactory(DependencyResolver.Current);
+            this.SetupWebApiControllerActivator(GlobalConfiguration.Configuration.DependencyResolver, container);
         }
 
         private IWindsorContainer BuildContainerAndRegisterTypes()
