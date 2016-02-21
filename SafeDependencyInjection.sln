@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomController", "CustomController\CustomController.csproj", "{AAC660CF-DF09-4273-A4E5-5A352E178003}"
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Deploy", "TDS.Deploy\TDS.Deploy.scproj", "{58642EC9-1AA0-4F7D-9E61-9F3BD8F6D829}"
@@ -15,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{3F30568C-C
 	ProjectSection(SolutionItems) = preProject
 		TdsGlobal.config = TdsGlobal.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionOfControl.SimpleInjector", "InversionOfControl.SimpleInjector\InversionOfControl.SimpleInjector.csproj", "{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +50,10 @@ Global
 		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ADE0D9D6-C62F-49A9-8A75-1AEE22CD85D8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
