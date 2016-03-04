@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{3F30568C-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionOfControl.Autofac", "InversionOfControl.Autofac\InversionOfControl.Autofac.csproj", "{AE542CE8-FA59-4CAE-B2AC-FBCD23A0151A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionOfControl.SimpleInjector", "InversionOfControl.SimpleInjector\InversionOfControl.SimpleInjector.csproj", "{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{AE542CE8-FA59-4CAE-B2AC-FBCD23A0151A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE542CE8-FA59-4CAE-B2AC-FBCD23A0151A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE542CE8-FA59-4CAE-B2AC-FBCD23A0151A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF3A467-2EB0-4B96-80B6-A0316F6DAFA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
