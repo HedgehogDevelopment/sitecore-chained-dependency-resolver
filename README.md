@@ -1,3 +1,5 @@
+<img src="https://www.hhog.com/-/media/PublicImages/Hedgehog/Hedgehog-logo-4color-275x46.jpg" alt="Hedgehog Development" border="0"> 
+
 Safe Dependency Injection with Sitecore
 =======================================
 
